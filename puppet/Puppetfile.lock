@@ -1,0 +1,87 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    maestrodev/wget (1.3.2)
+    puppetlabs/apt (1.4.2)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/concat (1.1.0-rc1)
+      puppetlabs/stdlib (>= 3.0.0)
+    puppetlabs/stdlib (4.1.0)
+    puppetlabs/vcsrepo (0.2.0)
+
+GIT
+  remote: git://github.com/puppetlabs/puppetlabs-apt.git
+  ref: master
+  sha: 6691c2faded01d273672b4db36f5a8651d3a934f
+  specs:
+    apt (1.4.1)
+      puppetlabs/stdlib (>= 2.2.1)
+
+GIT
+  remote: https://github.com/Brainsware/puppet-composer.git
+  ref: master
+  sha: 6522c2a8da4ed0535b462f770f9b9e47635919de
+  specs:
+    composer (0.2.2)
+      maestrodev/wget (>= 1.2.2)
+      puppetlabs/stdlib (>= 4.1.0)
+
+GIT
+  remote: https://github.com/cillosis/puppet-codeception.git
+  ref: master
+  sha: d6f5c0cbcea0382b1db3f8ccd678b53d2a10c0dd
+  specs:
+    codeception (0.0.1)
+
+GIT
+  remote: https://github.com/puppetlabs/puppetlabs-apache.git
+  ref: master
+  sha: 1421244d625e6d56ba2d872846cd1b4e3b25f16d
+  specs:
+    apache (1.0.1)
+      puppetlabs/concat (>= 1.0.0)
+      puppetlabs/stdlib (>= 2.4.0)
+
+GIT
+  remote: https://github.com/puppetlabs/puppetlabs-git.git
+  ref: master
+  sha: 54488c6dc47c1e9c4f769f753b52f0c534041a4c
+  specs:
+    git (0.0.3)
+      puppetlabs/vcsrepo (>= 0)
+
+GIT
+  remote: https://github.com/puppetlabs/puppetlabs-mysql.git
+  ref: master
+  sha: 6506c1d4f4c6fbd56650ac52d63f37964009cb80
+  specs:
+    mysql (2.2.1)
+      puppetlabs/stdlib (>= 3.2.0)
+
+GIT
+  remote: https://github.com/puppetlabs/puppetlabs-nodejs.git
+  ref: master
+  sha: cc60a877db078ca116a74ce0f31a89eb3a663c3d
+  specs:
+    nodejs (0.4.0)
+      puppetlabs/apt (>= 0.0.3)
+      puppetlabs/stdlib (>= 2.0.0)
+
+GIT
+  remote: https://github.com/woss/puppet-php.git
+  ref: master
+  sha: 72273f946c9bc159c419f4d945f9399c5219bc6d
+  specs:
+    php (1.1.0)
+
+DEPENDENCIES
+  apache (>= 0)
+  apt (>= 0)
+  codeception (>= 0)
+  composer (>= 0)
+  git (>= 0)
+  mysql (>= 0)
+  nodejs (>= 0)
+  php (>= 0)
+  puppetlabs/stdlib (>= 0)
+

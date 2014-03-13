@@ -1,0 +1,16 @@
+# phpstrom
+/.idea/
+
+# vagrant
+/.vagrant/
+
+# puppet
+/puppet/.librarian/
+/puppet/.tmp/
+/puppet/modules/
+
+# node.js
+*/node_modules/
+
+# composer
+/vendor/
