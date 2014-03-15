@@ -44,7 +44,7 @@ Vagrant.configure("2") do |config|
   # Set up provisioning with Puppet
   config.vm.provision "shell", :path => "puppet/setup.sh"
   config.vm.provision "puppet" do |puppet|
-    puppet.options = "--verbose --debug"
+    #puppet.options = "--verbose --debug"
     puppet.manifests_path = "puppet/manifests"
     puppet.manifest_file = "appetizer.pp"
     puppet.module_path = "puppet/modules"

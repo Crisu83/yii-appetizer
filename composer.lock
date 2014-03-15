@@ -3,11 +3,44 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "da0ca6d9ec98cf25f8eb3c9d1a77b1b8",
+    "hash": "029aa5818c49266a0b5f49a20b713778",
     "packages": [
         {
+            "name": "crisu83/yii-caviar",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Crisu83/yii-caviar.git",
+                "reference": "446b4b78b73f9e222e3489a14505d9d49217ec65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Crisu83/yii-caviar/zipball/446b4b78b73f9e222e3489a14505d9d49217ec65",
+                "reference": "446b4b78b73f9e222e3489a14505d9d49217ec65",
+                "shasum": ""
+            },
+            "type": "yii-extension",
+            "autoload": {
+                "psr-4": {
+                    "crisu83\\yii_caviar\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoffer Niska",
+                    "email": "ChristofferNiska@gmail.com"
+                }
+            ],
+            "description": "Next generation code generation for Yii.",
+            "time": "2014-03-15 01:10:22"
+        },
+        {
             "name": "crisu83/yii-consoletools",
-            "version": "1.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Crisu83/yii-consoletools.git",
@@ -137,7 +170,7 @@
     "aliases": [
 
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [
 
     ],

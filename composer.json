@@ -1,15 +1,17 @@
 {
   "name": "crisu83/yii-appetizer",
   "description": "Next generation Yii application stack.",
-  "require": {
-    "yiisoft/yii": "*",
-    "crisu83/yii-consoletools": "*"
-  },
   "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Christoffer Niska",
       "email": "ChristofferNiska@gmail.com"
     }
-  ]
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii": "1.1.14",
+    "crisu83/yii-consoletools": "*",
+    "crisu83/yii-caviar": "*"
+  }
 }

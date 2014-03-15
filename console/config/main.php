@@ -5,7 +5,8 @@ return array(
     'runtimePath' => dirname(__DIR__) . '/runtime',
     'commandMap' => array(
         'generate' => array(
-            'class' => 'console\commands\generate\Command'
+            'class' => '\crisu83\yii_caviar\Command',
+            'basePath' => realpath(dirname(__FILE__) . '/../..'),
         ),
     ),
 );
